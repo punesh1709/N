@@ -12,7 +12,7 @@ const  SearchContainer = ()=>{
     const [pageno, setPageno] = useState(1);
     const [paginationno, setPaginationno] = useState(0);
 
-    const [searchValue, setSearchValue] = useState('Rockstar');
+    const [searchValue, setSearchValue] = useState('');
     const [typeValue, setTypeValue] = useState('movie');
     const API_KEY = process.env.REACT_APP_NOT_SECRET_CODE;
 
